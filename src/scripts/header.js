@@ -3,10 +3,20 @@ const headerMenu = document.getElementById('header-menu');
 const headerNav = document.getElementById('header-nav');
 
 headerMenu.addEventListener('click', () => {
-    headerNav.classList.toggle('active');
+    if (!headerNav.classList.contains('active')) {
+        headerNav.classList.add('open');
+    } else {
+        headerNav.classList.add('close');
+    }
 });
+headerNav.addEventListener('animationend', () => {
+    headerNav.classList.toggle('active');
+    headerNav.classList.remove('open');
+    headerNav.classList.remove('close');
+});
+
 window.addEventListener('scroll', () => {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         header.classList.add('slim');
     } else {
         header.classList.remove('slim');

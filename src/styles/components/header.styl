@@ -1,14 +1,16 @@
 header {
     background: light
     color: dark-alpha
-    position: fixed
     width: 100%
+    position: fixed
+    transition: 0.3s background
 
     @media (min-width: tablet) {
         background: none
     }
 
     .container {
+        transition: 0.3s height
         display: flex
         align-items: center
         justify-content: space-between
@@ -50,23 +52,52 @@ header {
     }
 
     nav {
-        display: none
         position: absolute
-        top: 100%
+        background: dark-alpha
+        padding: 20px 0
         left: 0
         right: 0
-        padding: 20px
-        background: dark-alpha
+        top: 100%
+        display: none
 
         &.active {
             display: block
         }
 
-        @media (min-width: tablet) {
-            padding: 0
+        &.open {
+            animation: 0.3s nav-open
             display: block
+
+            @keyframes nav-open {
+                from {
+                    transform: translateX(-100%)
+                }
+
+                to {
+                    transform: translateX(0%)
+                }
+            }
+        }
+
+        &.close {
+            animation: 0.3s nav-close
+            display: block
+
+            @keyframes nav-close {
+                from {
+                    transform: translateX(0%)
+                }
+
+                to {
+                    transform: translateX(100%)
+                }
+            }
+        }
+
+        @media (min-width: tablet) {
             position: static
             background: none
+            display: block
         }
 
         ul {
