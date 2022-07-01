@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "CyanNyan's personal website clone",
   "scripts": {
-    "start": "parcel index.ejs"
+    "start": "parcel index.ejs",
+    "build": "parcel build index.ejs"
   },
   "repository": "https://github.com/BayuDC/cyan-web-clone.git",
   "author": "BayuDC <dev.bayudc@gmail.com>",
@@ -11,6 +12,7 @@
   "devDependencies": {
     "@parcel/config-default": "^2.6.2",
     "@parcel/core": "^2.6.2",
+    "@parcel/transformer-stylus": "^2.6.2",
     "parcel": "^2.6.2",
     "parcel-transformer-ejs": "^1.0.0"
   }
