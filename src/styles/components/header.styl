@@ -4,6 +4,10 @@ header {
     position: fixed
     width: 100%
 
+    @media (min-width: tablet) {
+        background: none
+    }
+
     .container {
         display: flex
         align-items: center
@@ -12,7 +16,14 @@ header {
 
         @media (min-width: tablet) {
             height: 100px
-            // height: 60px
+        }
+    }
+
+    &.slim {
+        background: light
+
+        .container {
+            height: 60px !important
         }
     }
 
