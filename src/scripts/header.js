@@ -16,7 +16,7 @@ headerNav.addEventListener('animationend', () => {
 });
 
 window.addEventListener('scroll', () => {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         header.classList.add('slim');
     } else {
         header.classList.remove('slim');

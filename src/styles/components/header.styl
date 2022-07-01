@@ -4,9 +4,22 @@ header {
     width: 100%
     position: fixed
     transition: 0.3s background
+    z-index: 10
 
     @media (min-width: tablet) {
         background: none
+
+        &.slim {
+            background: light
+
+            .container {
+                height: 60px !important
+            }
+
+            a {
+                color: dark-alpha !important
+            }
+        }
     }
 
     .container {
@@ -18,14 +31,6 @@ header {
 
         @media (min-width: tablet) {
             height: 100px
-        }
-    }
-
-    &.slim {
-        background: light
-
-        .container {
-            height: 60px !important
         }
     }
 
@@ -123,7 +128,7 @@ header {
             font-weight: 700
 
             @media (min-width: tablet) {
-                color: dark-alpha
+                color: light
             }
         }
     }
