@@ -1,13 +1,13 @@
 .container {
-    max-width: 1200px
-    margin: auto
-    padding: 0 20px
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 
-    @media (min-width: tablet) {
-        padding: 0 40px
+    +on-tablet() {
+        padding: 0 40px;
     }
 
-    @media (min-width: desktop) {
-        padding: 0 60px
+    +on-desktop() {
+        padding: 0 60px;
     }
 }

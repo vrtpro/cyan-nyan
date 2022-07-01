@@ -1,58 +1,58 @@
 .hero {
-    background-position: center 30%
-    background-size: cover
+    background-position: center 30%;
+    background-size: cover;
 
     &::before {
-        content: ''
-        background: rgba(50, 50, 50, 0.4)
-        width: 100%
-        height: 100%
-        min-width: 280px
-        position: absolute
-        left: 0
+        content: '';
+        background: alpha($black, 0.3);
+        width: 100%;
+        height: 100%;
+        min-width: 280px;
+        position: absolute;
+        left: 0;
     }
 
     .container {
-        position: relative
-        height: 100vh
-        color: light
-        display: flex
-        flex-direction: column
-        justify-content: center
+        text-light();
+        position: relative;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     h1 {
-        font-size: 36px
-        margin-bottom: 10px
-        transition: 0.3s
+        font-size: 36px;
+        margin-bottom: 10px;
+        smoth();
     }
 
     h2 {
-        font-size: 20px
-        transition: 0.3s
+        font-size: 20px;
+        smoth();
     }
 
-    @media (min-width: tablet) {
+    +on-tablet() {
         h1 {
-            font-size: 44px
+            font-size: 44px;
         }
 
         h2 {
-            font-size: 24px
+            font-size: 24px;
         }
     }
 
-    @media (min-width: desktop) {
+    +on-desktop() {
         h1 {
-            font-size: 60px
+            font-size: 60px;
         }
 
         h2 {
-            font-size: 32px
+            font-size: 32px;
         }
     }
 
     .button {
-        margin-top: 10px
+        margin-top: 10px;
     }
 }

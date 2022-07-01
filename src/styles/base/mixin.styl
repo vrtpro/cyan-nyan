@@ -1,0 +1,60 @@
+on-tablet() {
+    @media (min-width: $tablet) {
+        {block};
+    }
+}
+
+on-desktop() {
+    @media (min-width: $desktop) {
+        {block};
+    }
+}
+
+text-light() {
+    color: $white;
+}
+
+text-dark() {
+    color: $black;
+}
+
+text-bold() {
+    font-weight: 700;
+}
+
+bg-light() {
+    background: $white;
+}
+
+bg-dark() {
+    background: $black;
+}
+
+bg-none() {
+    background: none;
+}
+
+smoth(delay = 0.3s) {
+    transition: delay;
+}
+
+smoth(property = all, delay = 0.3s) {
+    transition: delay property;
+}
+
+animate(name, delay = 0.3s) {
+    animation: delay name;
+}
+
+flex-center() {
+    display: flex;
+    align-items: center;
+}
+
+hide() {
+    display: none;
+}
+
+show(as = block) {
+    display: as;
+}
