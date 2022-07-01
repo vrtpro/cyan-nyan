@@ -1,0 +1,17 @@
+{
+  "name": "cyan-web-clone",
+  "version": "0.0.0",
+  "description": "CyanNyan's personal website clone",
+  "scripts": {
+    "start": "parcel index.ejs"
+  },
+  "repository": "https://github.com/BayuDC/cyan-web-clone.git",
+  "author": "BayuDC <dev.bayudc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/config-default": "^2.6.2",
+    "@parcel/core": "^2.6.2",
+    "parcel": "^2.6.2",
+    "parcel-transformer-ejs": "^1.0.0"
+  }
+}
