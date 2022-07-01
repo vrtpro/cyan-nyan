@@ -19,6 +19,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: start;
     }
 
     h1 {
@@ -29,7 +30,45 @@
 
     h2 {
         font-size: 20px;
-        smoth();
+        display: flex;
+
+        span:first-child {
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 3.6s ease-in-out;
+
+            @keyframes typing {
+                0% {
+                    width: 0%;
+                    padding-right: 0;
+                }
+
+                20% {
+                    width: 100%;
+                    padding-right: 10px;
+                }
+
+                80% {
+                    width: 100%;
+                    padding-right: 10px;
+                }
+
+                100% {
+                    width: 0%;
+                    padding-right: 0;
+                }
+            }
+        }
+
+        &::after {
+            content: '|';
+            font-weight: 400;
+        }
+
+        span {
+            hide();
+        }
     }
 
     +on-tablet() {
