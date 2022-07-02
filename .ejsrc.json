@@ -42,5 +42,12 @@
             "text": "Make Friends with Hooman!",
             "url": "https://youtu.be/B0Fg7KYlQsI"
         }]
+    },
+    "offer": {
+        "heading": "YOU UP FOR HACKER NEKO?",
+        "button": {
+            "text": "GET HER!",
+            "url": "#about"
+        }
     }
 }
