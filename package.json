@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "CyanNyan's personal website clone",
   "scripts": {
-    "start": "parcel index.ejs --host 0.0.0.0",
+    "start": "parcel index.ejs",
     "build": "parcel build index.ejs"
   },
   "repository": "https://github.com/BayuDC/cyan-web-clone.git",
