@@ -2,16 +2,16 @@
     <div class="container">
         <h1>What I do</h1>
         <ul>
-            <% for( let i = 0; i < 6; i++ ) { %>
+            <% service.items.forEach(({img, text, url}) => { %>
             <li>
-                <a href="#">
+                <a href="<%= url %> " target="_blank">
                     <figure>
-                        <img src="img/code.jpg">
+                        <img src="img/<%= img %> ">
                     </figure>
-                    <h4>Code Fun Stuff!</h4>
+                    <h4><%= text %> </h4>
                 </a>
             </li>
-            <% } %>
+            <% }) %>
         </ul>
     </div>
 </section>

@@ -14,5 +14,33 @@
             "url": "https://www.youtube.com/channel/UC9wbdkwvYVSgKtOZ3Oov98g",
             "text": "See Me on YouTube"
         }
+    },
+    "service": {
+        "heading": "What I do",
+        "items": [{
+            "img": "code.jpg",
+            "text": "Code Fun Stuff!",
+            "url": "https://youtu.be/AS_Z6eQdnh4"
+        }, {
+            "img": "linux.png",
+            "text": "Do Cool Challenge!",
+            "url": "https://youtu.be/up6F-uPjq88"
+        }, {
+            "img": "draw.jpg",
+            "text": "Draw Anime Girls!",
+            "url": "https://youtu.be/PxpqD0eQLk0"
+        }, {
+            "img": "osu.png",
+            "text": "Stream on YouTube and Twitch!",
+            "url": "https://cyannyan.com/osu"
+        }, {
+            "img": "minecraft.jpg",
+            "text": "Host/Play Minecraft Server!",
+            "url": "https://youtu.be/YX_4mfu4CtA"
+        }, {
+            "img": "collab.png",
+            "text": "Make Friends with Hooman!",
+            "url": "https://youtu.be/B0Fg7KYlQsI"
+        }]
     }
 }
