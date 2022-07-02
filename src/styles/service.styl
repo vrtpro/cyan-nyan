@@ -33,6 +33,14 @@
 
         li {
             border-bottom: 1px solid $gray;
+            smoth(all, 1.5s);
+            opacity: 0;
+            transform: translateY(60px);
+
+            &.show {
+                transform: translateY(0px);
+                opacity: 1;
+            }
 
             figure {
                 overflow: hidden;
