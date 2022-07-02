@@ -1,14 +1,14 @@
 <section class="hero" style="background-image: url('img/background-1.jpg')">
     <div class="container">
-        <h1>Cyan Nyan 赛小盐</h1>
+        <h1><%= hero.heading %> </h1>
         <h2 id="typing-text">
-            <span>#VirtualYouTuber</span>
-            <span>#Coder/Hacker</span>
-            <span>#NyanStarNekoWaifu</span>
+            <% for( let i = 0; i < hero.subheading.length; i++ ) { %>
+            <span><%= hero.subheading[i] %> </span>
+            <% } %>
         </h2>
         <div class="button">
-            <a href="#" class="button">
-                See Me on YouTube
+            <a href="<%= hero.button.url %> " target="_blank" class="button">
+                <%= hero.button.text %>
             </a>
         </div>
     </div>

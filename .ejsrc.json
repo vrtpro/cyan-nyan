@@ -2,5 +2,17 @@
     "title": "Cyan Nyan | The Hacker Neko VTuber",
     "header": {
         "logo": "logo-crop.png"
+    },
+    "hero": {
+        "heading": "Cyan Nyan 赛小盐",
+        "subheading": [
+            "#VirtualYouTuber",
+            "#Coder/Hacker",
+            "#NyanStarNekoWaifu"
+        ],
+        "button": {
+            "url": "https://www.youtube.com/channel/UC9wbdkwvYVSgKtOZ3Oov98g",
+            "text": "See Me on YouTube"
+        }
     }
 }
