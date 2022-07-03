@@ -20,6 +20,10 @@ header {
 
             a {
                 text-dark();
+
+                &::before {
+                    bg-dark();
+                }
             }
         }
 
@@ -28,6 +32,10 @@ header {
 
             a {
                 text-light();
+
+                &::before {
+                    bg-light();
+                }
             }
         }
     }
@@ -132,6 +140,24 @@ header {
         a {
             text-light();
             text-bold();
+
+            +on-tablet() {
+                position: relative;
+
+                &::before {
+                    content: '';
+                    height: 2px;
+                    width: 0%;
+                    position: absolute;
+                    bottom: -4px;
+                    bg-light();
+                    smoth();
+                }
+
+                &:hover::before {
+                    width: 100%;
+                }
+            }
         }
     }
 }
