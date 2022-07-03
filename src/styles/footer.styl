@@ -1,0 +1,73 @@
+footer {
+    padding-top: 60px;
+    text-light();
+    bg-dark();
+
+    .container {
+        flex-center();
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+
+        +on-tablet() {
+            font-size: 32px;
+        }
+    }
+
+    ul {
+        padding: 40px 0 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        +on-tablet() {
+            grid-template-columns: repeat(6, 1fr);
+        }
+
+        a {
+            font-size: 30px;
+            padding: 10px;
+            display: block;
+
+            &.twitter {
+                background: #1DA1F2;
+            }
+
+            &.youtube {
+                background: #ff0000;
+            }
+
+            &.github {
+                background: #333333;
+            }
+
+            &.twitch {
+                background: #6441a5;
+            }
+
+            &.discord {
+                background: #5865f2;
+            }
+
+            &.telegram {
+                background: #0088cc;
+            }
+        }
+
+        i {
+            text-light();
+        }
+
+        margin-bottom: 60px;
+    }
+
+    p {
+        font-size: 14px;
+        border-top: 1px solid $white;
+        padding: 20px 0;
+        text-align: center;
+    }
+}
