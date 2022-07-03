@@ -57,6 +57,17 @@
             "text": "Subscribe to my channels",
             "url": "https://www.youtube.com/channel/UC9wbdkwvYVSgKtOZ3Oov98g"
         }
+    },
+    "footer": {
+        "heading": "Join Our Journey!",
+        "social": {
+            "twitter": "https://cyannyan.com/twitter",
+            "youtube": "https://cyannyan.com/youtube",
+            "github": "https://github.com/CyanNyan",
+            "twitch": "https://cyannyan.com/twitch",
+            "discord": "https://cyannyan.com/discord",
+            "telegram": "https://cyannyan.com/telegram"
+        },
+        "credit": true
     }
-
 }
