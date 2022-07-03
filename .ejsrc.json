@@ -49,5 +49,14 @@
             "text": "GET HER!",
             "url": "#about"
         }
+    },
+    "about": {
+        "img": "avatar.jpg",
+        "content": "Hello nyan! I am Cyan 赛小盐 and I am your Hacker Neko Waifu. I am a EN/CN VTuber who wants to document my journey to be the cutest hacker alien on earth!I love to code, play Minecraft, draw anime, play guitar, and make friends with hooman!😊",
+        "button": {
+            "text": "Subscribe to my channels",
+            "url": "https://www.youtube.com/channel/UC9wbdkwvYVSgKtOZ3Oov98g"
+        }
     }
+
 }

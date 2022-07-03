@@ -1,17 +1,15 @@
-<section class="about">
+<section class="about" id="about">
     <div class="container">
         <figure>
-            <img src="img/avatar.jpg?as=webp&width=360" alt="Avatar">
+            <img src="img/<%= about.img %>?as=webp&width=360" alt="Avatar">
         </figure>
         <div class="info">
             <h2>KNOW MORE<br>ABOUT ME</h2>
             <p>
-                Hello nyan! I am Cyan 赛小盐 and I am your Hacker Neko Waifu. I am a EN/CN VTuber who wants to document my
-                journey to be the cutest hacker alien on earth! I love to code, play Minecraft, draw anime, play guitar,
-                and make friends with hooman!😊
+                <%= about.content %>
             </p>
-            <a href="#" target="_blank" class="button smoll">
-                Subscribe to my channels
+            <a href="<%= about.button.url %> " target="_blank" class="button smoll">
+                <%= about.button.text %>
             </a>
         </div>
     </div>
