@@ -1,9 +1,9 @@
 a.button {
     text-light();
     text-bold();
-    font-size: 16px;
+    font-size: 14px;
     border: 2px solid light;
-    padding: 10px 16px;
+    padding: 8px 12px;
     display: inline-block;
     smoth();
 
@@ -13,18 +13,10 @@ a.button {
     }
 
     +on-tablet() {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     +on-desktop() {
-        font-size: 20px;
-    }
-
-    &.smoll {
-        font-size: 14px;
-
-        +on-desktop() {
-            font-size: 16px;
-        }
+        font-size: 18px;
     }
 }

@@ -23,15 +23,19 @@
         align-items: start;
     }
 
+    $h1-size = 36px;
+    $h2-size = 24px;
+
     h1 {
-        font-size: 36px;
+        font-size: $h1-size;
         margin-bottom: 10px;
         smoth();
     }
 
     h2 {
         display: flex;
-        font-size: 20px;
+        font-size: $h2-size;
+        margin-bottom: 10px;
 
         span:first-child {
             display: block;
@@ -78,21 +82,21 @@
 
     +on-tablet() {
         h1 {
-            font-size: 44px;
+            font-size: $h1-size + 8px;
         }
 
         h2 {
-            font-size: 24px;
+            font-size: $h2-size + 4px;
         }
     }
 
     +on-desktop() {
         h1 {
-            font-size: 60px;
+            font-size: $h1-size + 8px + 8px;
         }
 
         h2 {
-            font-size: 32px;
+            font-size: $h2-size + 4px + 4px;
         }
     }
 }
