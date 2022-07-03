@@ -63,10 +63,21 @@ footer {
             &.telegram {
                 background: #0088cc;
             }
+
+            opacity: 0;
+            transform: scale(0.6);
+            smooth(all, 0.6s);
         }
 
         i {
             text-light();
+        }
+
+        &.show {
+            a {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
 
         margin-bottom: 60px;

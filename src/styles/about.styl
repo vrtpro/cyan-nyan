@@ -34,6 +34,15 @@
                 max-width: 360px;
             }
         }
+
+        opacity: 0;
+        transform: translateY(60px);
+        smooth(all, 1.2s);
+
+        &.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 
     .info {
@@ -77,9 +86,23 @@
             }
         }
 
+        opacity: 0;
+        transform: translateY(60px);
+        smooth(all, 1.2s);
+
+        &.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
         +on-tablet() {
             text-align: left;
             align-items: start;
+            transform: translateX(60px);
+
+            &.show {
+                transform: translateX(0);
+            }
         }
     }
 }

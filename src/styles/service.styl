@@ -37,9 +37,23 @@
             transform: translateY(60px);
             opacity: 0;
 
+            +on-tablet() {
+                &:nth-child(odd) {
+                    transform: translateX(-60px);
+                }
+
+                &:nth-child(even) {
+                    transform: translateX(60px);
+                }
+            }
+
             &.show {
                 transform: translateY(0px);
                 opacity: 1;
+
+                +on-tablet() {
+                    transform: translateX(0px);
+                }
             }
 
             figure {

@@ -16,9 +16,19 @@
         top: 0;
     }
 
+    &.show {
+        .container {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     .container {
         flex-center();
         flex-direction: column;
+        opacity: 0;
+        smooth(all, 1.2s);
+        transform: translateY(60px);
     }
 
     h1 {
