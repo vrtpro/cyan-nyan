@@ -16,14 +16,6 @@ headerNav.addEventListener('animationend', () => {
     headerNav.classList.remove('close');
 });
 
-// window.addEventListener('scroll', () => {
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         header.classList.add('slim');
-//     } else {
-//         header.classList.remove('slim');
-//     }
-// });
-
 new IntersectionObserver(
     entries => {
         entries.forEach(entry => {

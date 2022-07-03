@@ -1,15 +1,13 @@
 <section class="hero" style="background-image: url('img/background-1.jpg?as=webp')">
     <div class="container">
-        <h1><%= hero.heading %> </h1>
+        <h1><%= hero.heading %></h1>
         <h2 id="typing-text">
-            <% for( let i = 0; i < hero.subheading.length; i++ ) { %>
-            <span><%= hero.subheading[i] %> </span>
-            <% } %>
+            <% hero.subheading.forEach(subheading => { %>
+            <span><%= subheading %></span>
+            <% }) %>
         </h2>
-        <div class="button">
-            <a href="<%= hero.button.url %> " target="_blank" class="button">
-                <%= hero.button.text %>
-            </a>
-        </div>
+        <a href="<%= hero.button.url %> " target="_blank" class="button">
+            <%= hero.button.text %>
+        </a>
     </div>
 </section>

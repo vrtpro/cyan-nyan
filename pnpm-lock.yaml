@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@parcel/config-default': ^2.6.2
@@ -876,6 +876,7 @@ packages:
       stylus: 0.55.0
     transitivePeerDependencies:
       - '@parcel/core'
+      - supports-color
     dev: true
 
   /@parcel/transformer-svg/2.6.2_@parcel+core@2.6.2:
@@ -1207,6 +1208,11 @@ packages:
 
   /debug/3.1.0:
     resolution: {integrity: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
     dependencies:
       ms: 2.0.0
     dev: true
@@ -1916,6 +1922,8 @@ packages:
       sax: 1.2.4
       semver: 6.3.0
       source-map: 0.7.4
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /supports-color/5.5.0:
