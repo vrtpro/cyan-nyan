@@ -1,5 +1,8 @@
 {
-    "title": "Cyan Nyan | The Hacker Neko VTuber",
+    "meta": {
+        "title": "Cyan Nyan | The Hacker Neko VTuber",
+        "favicon": "favicon.png"
+    },
     "loading": {
         "text": "Cyan Nyan"
     },
