@@ -1,6 +1,6 @@
 {
   "name": "cyan-web-clone",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CyanNyan's personal website clone",
   "scripts": {
     "start": "parcel index.ejs",
