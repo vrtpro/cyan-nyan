@@ -8,8 +8,9 @@
         </button>
         <nav id="header-nav">
             <ul>
-                <li><a href="#">What I do</a></li>
-                <li><a href="#">About Me</a></li>
+                <% header.nav.forEach(nav => { %>
+                <li><a href="<%= nav.url %> "><%= nav.text %></a></li>
+                <% }) %>
             </ul>
         </nav>
     </div>

@@ -1,7 +1,14 @@
 {
     "title": "Cyan Nyan | The Hacker Neko VTuber",
     "header": {
-        "logo": "logo-crop.png"
+        "logo": "logo-crop.png",
+        "nav": [{
+            "text": "What I do",
+            "url": "#service"
+        }, {
+            "text": "About Me",
+            "url": "#about"
+        }]
     },
     "hero": {
         "heading": "Cyan Nyan 赛小盐",
