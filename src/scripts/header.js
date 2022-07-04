@@ -13,7 +13,14 @@ headerMenu.addEventListener('click', () => {
 headerNav.addEventListener('animationend', () => {
     headerNav.classList.toggle('active');
     headerNav.classList.remove('open');
-    headerNav.classList.remove('close');
+    if (headerNav.classList.contains('open')) {
+        headerNav.classList.add('active');
+        headerNav.classList.remove('open');
+    }
+    if (headerNav.classList.contains('close')) {
+        headerNav.classList.remove('active');
+        headerNav.classList.remove('close');
+    }
 });
 
 [...headerNav.getElementsByTagName('a')].forEach(a => {
