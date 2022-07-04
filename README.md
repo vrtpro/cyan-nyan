@@ -16,8 +16,8 @@ tons of uneccessary library that are not needed.
 
 <!-- how -->
 
-Of course, recreate everything from scratch fix it(need a lot of hard
-work ~~and love~~).
+Of course, recreate everything from scratch fix it(this is a bad idea
+but i still do it just for learning purpose).
 
 ### Demo
 
