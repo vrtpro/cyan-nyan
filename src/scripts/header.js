@@ -16,6 +16,12 @@ headerNav.addEventListener('animationend', () => {
     headerNav.classList.remove('close');
 });
 
+[...headerNav.getElementsByTagName('a')].forEach(a => {
+    a.addEventListener('click', () => {
+        headerNav.classList.add('close');
+    });
+});
+
 new IntersectionObserver(
     entries => {
         entries.forEach(entry => {
