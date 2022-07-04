@@ -9,5 +9,5 @@ new IntersectionObserver(
             }
         });
     },
-    { threshold: 0.8 }
+    { rootMargin: '-60px' }
 ).observe(offer);

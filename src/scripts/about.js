@@ -11,5 +11,5 @@ new IntersectionObserver(
             }
         });
     },
-    { rootMargin: '-240px' }
+    { rootMargin: '-60px' }
 ).observe(about);
