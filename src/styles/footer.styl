@@ -27,11 +27,13 @@ footer {
             grid-template-columns: repeat(6, 1fr);
         }
 
-        li {
-            smooth();
+        +on-desktop() {
+            li {
+                smooth();
 
-            &:hover {
-                transform: translateY(-8px);
+                &:hover {
+                    transform: translateY(-8px);
+                }
             }
         }
 
@@ -66,7 +68,7 @@ footer {
 
             opacity: 0;
             transform: scale(0.6);
-            smooth(all, 0.6s);
+            smooth(all, 0.9s);
         }
 
         i {
