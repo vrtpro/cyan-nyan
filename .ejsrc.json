@@ -1,5 +1,8 @@
 {
     "title": "Cyan Nyan | The Hacker Neko VTuber",
+    "loading": {
+        "text": "Cyan Nyan"
+    },
     "header": {
         "logo": "logo-crop.png",
         "nav": [{
