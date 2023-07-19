@@ -21,8 +21,8 @@ but i still do it just for learning purpose).
 
 ### Demo
 
-https://ilovecyannyan.netlify.app  
-[click here to see the original website](https://cyannyan.com)
+https://cyan-nyan.netlify.app  
+[See the original website](https://cyannyan.com)
 
 ## Development
 
