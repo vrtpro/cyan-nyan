@@ -6,3 +6,18 @@
 <script src="https://kit.fontawesome.com/0e0e252d02.js" crossorigin="anonymous"></script>
 <script src="src/main.js" type="module" defer></script>
 <title><%= meta.title %></title>
+<meta name="description" content="<%= meta.description %>">
+<meta name="author" content="<%= meta.author.name %>">
+<meta name="publisher" content="<%= meta.author.name %>">
+<meta name="og:title" content="<% meta.title %>">
+<meta name="og:description" content="<% meta.description %>">
+<meta name="og:type" content="website">
+<meta name="og:site_name" content="<%= meta.title %>">
+<meta name="og:url" content="<%= meta.url %>">
+<meta name="og:img" content="img/<%= meta.favicon %>">
+<meta name="og:img:type" content="<%= meta.image.type %>">
+<meta name="og:img:width" content="<%= meta.image.width %>">
+<meta name="og:img:height" content="<%= meta.image.height %>">
+<meta name="twitter:image" content="img/<%= meta.favicon %>">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="<%= meta.url %>">

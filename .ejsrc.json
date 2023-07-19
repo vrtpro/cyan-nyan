@@ -1,7 +1,18 @@
 {
     "meta": {
         "title": "Cyan Nyan | The Hacker Neko VTuber",
-        "favicon": "favicon.png"
+        "description": "Unofficial CyanNyan's Website",
+        "favicon": "favicon.png",
+        "image": {
+            "type": "image/png",
+            "width": 300,
+            "height": 300
+        },
+        "author": {
+            "name": "BayuDC",
+            "url": "https://github.com/BayuDC"
+        },
+        "url": "https://cyan-nyan.netlify.app"
     },
     "loading": {
         "text": "Cyan Nyan"
