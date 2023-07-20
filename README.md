@@ -1,6 +1,6 @@
 # CyanNyan's Personal Website Clone
 
-![Banner](https://media.discordapp.net/attachments/946013429200723989/1131479674581684254/banner_2.png)
+[![Project banner](https://media.discordapp.net/attachments/946013429200723989/1131479674581684254/banner_2.png)](https://cyan-nyan.bayudc.fun)
 ![Netlify Status](https://api.netlify.com/api/v1/badges/ee675194-386b-4627-920b-8f3b8e8df02a/deploy-status)
 
 # 📖 Background
@@ -42,7 +42,7 @@ $ pnpm start
 
 | Name | Status | Description                                         |
 | ---- | ------ | --------------------------------------------------- |
-| SEO  |        | Bring the Search Engine Optimization to the website |
+| SEO  | ✅     | Bring the Search Engine Optimization to the website |
 
 ## ❤️ Credits
 
