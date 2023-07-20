@@ -6,8 +6,11 @@
     "start": "parcel index.ejs",
     "build": "parcel build index.ejs"
   },
-  "repository": "https://github.com/BayuDC/cyan-web-clone.git",
-  "author": "BayuDC <dev.bayudc@gmail.com>",
+  "repository": "https://github.com/vrtpro/cyan-nyan.git",
+  "author": {
+    "name": "BayuDC",
+    "email": "dev.bayudc@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@parcel/config-default": "^2.6.2",
