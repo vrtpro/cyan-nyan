@@ -1,5 +1,7 @@
 # CyanNyan's Personal Website Clone
 
+![Banner](https://media.discordapp.net/attachments/946013429200723989/1131479674581684254/banner_2.png)
+
 <!-- what  -->
 
 This project is a clone of [CyanNyan](https://github.com/CyanNyan)'s
@@ -35,8 +37,7 @@ $ npm start
 
 ## Todo List
 
--   Image slider
--   SEO
+-   SEO ✅
 
 ## Credits
 

@@ -3,10 +3,11 @@
         "title": "Cyan Nyan | The Hacker Neko VTuber",
         "description": "Unofficial CyanNyan's Website",
         "favicon": "favicon.png",
-        "image": {
+        "banner": {
             "type": "image/png",
-            "width": 300,
-            "height": 300
+            "width": 1280,
+            "height": 640,
+            "url": "https://media.discordapp.net/attachments/946013429200723989/1131479674581684254/banner_2.png"
         },
         "author": {
             "name": "BayuDC",
