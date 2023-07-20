@@ -1,99 +1,105 @@
 {
-    "meta": {
-        "title": "Cyan Nyan | The Hacker Neko VTuber",
-        "description": "Unofficial CyanNyan's Website",
-        "favicon": "favicon.png",
-        "banner": {
-            "type": "image/png",
-            "width": 1280,
-            "height": 640,
-            "url": "https://media.discordapp.net/attachments/946013429200723989/1131479674581684254/banner_2.png"
-        },
-        "author": {
-            "name": "BayuDC",
-            "url": "https://github.com/BayuDC"
-        },
-        "url": "https://cyan-nyan.netlify.app"
+  "meta": {
+    "title": "Cyan Nyan | The Hacker Neko VTuber",
+    "description": "Unofficial CyanNyan's Website",
+    "favicon": "favicon.png",
+    "banner": {
+      "type": "image/png",
+      "width": 1280,
+      "height": 640,
+      "url": "https://media.discordapp.net/attachments/946013429200723989/1131479674581684254/banner_2.png"
     },
-    "loading": {
-        "text": "Cyan Nyan"
+    "author": {
+      "name": "BayuDC",
+      "url": "https://github.com/BayuDC"
     },
-    "header": {
-        "logo": "logo-crop.png",
-        "nav": [{
-            "text": "What I do",
-            "url": "#service"
-        }, {
-            "text": "About Me",
-            "url": "#about"
-        }]
-    },
-    "hero": {
-        "img": "background-1.jpg",
-        "heading": "Cyan Nyan 赛小盐",
-        "subheading": [
-            "#VirtualYouTuber",
-            "#Coder/Hacker",
-            "#NyanStarNekoWaifu"
-        ],
-        "button": {
-            "url": "https://www.youtube.com/channel/UC9wbdkwvYVSgKtOZ3Oov98g",
-            "text": "See Me on YouTube"
-        }
-    },
-    "service": {
-        "heading": "What I do",
-        "items": [{
-            "img": "code.jpg",
-            "text": "Code Fun Stuff!",
-            "url": "https://youtu.be/AS_Z6eQdnh4"
-        }, {
-            "img": "linux.png",
-            "text": "Do Cool Challenge!",
-            "url": "https://youtu.be/up6F-uPjq88"
-        }, {
-            "img": "draw.jpg",
-            "text": "Draw Anime Girls!",
-            "url": "https://youtu.be/PxpqD0eQLk0"
-        }, {
-            "img": "osu.jpg",
-            "text": "Stream on YouTube and Twitch!",
-            "url": "https://cyannyan.com/osu"
-        }, {
-            "img": "minecraft.jpg",
-            "text": "Host/Play Minecraft Server!",
-            "url": "https://youtu.be/YX_4mfu4CtA"
-        }, {
-            "img": "collab.png",
-            "text": "Make Friends with Hooman!",
-            "url": "https://youtu.be/B0Fg7KYlQsI"
-        }]
-    },
-    "offer": {
-        "heading": "YOU UP FOR HACKER NEKO?",
-        "button": {
-            "text": "GET HER!",
-            "url": "#about"
-        }
-    },
-    "about": {
-        "img": "avatar.jpg",
-        "content": "Hello nyan! I am Cyan 赛小盐 and I am your Hacker Neko Waifu. I am a EN/CN VTuber who wants to document my journey to be the cutest hacker alien on earth!I love to code, play Minecraft, draw anime, play guitar, and make friends with hooman!😊",
-        "button": {
-            "text": "Subscribe to my channels",
-            "url": "https://www.youtube.com/channel/UC9wbdkwvYVSgKtOZ3Oov98g"
-        }
-    },
-    "footer": {
-        "heading": "Join Our Journey!",
-        "social": {
-            "twitter": "https://cyannyan.com/twitter",
-            "youtube": "https://cyannyan.com/youtube",
-            "github": "https://github.com/CyanNyan",
-            "twitch": "https://cyannyan.com/twitch",
-            "discord": "https://cyannyan.com/discord",
-            "telegram": "https://cyannyan.com/telegram"
-        },
-        "credit": true
+    "url": "https://cyan-nyan.bayudc.fun"
+  },
+  "loading": {
+    "text": "Cyan Nyan"
+  },
+  "header": {
+    "logo": "logo-crop.png",
+    "nav": [
+      {
+        "text": "What I do",
+        "url": "#service"
+      },
+      {
+        "text": "About Me",
+        "url": "#about"
+      }
+    ]
+  },
+  "hero": {
+    "img": "background-1.jpg",
+    "heading": "Cyan Nyan 赛小盐",
+    "subheading": ["#VirtualYouTuber", "#Coder/Hacker", "#NyanStarNekoWaifu"],
+    "button": {
+      "url": "https://www.youtube.com/channel/UC9wbdkwvYVSgKtOZ3Oov98g",
+      "text": "See Me on YouTube"
     }
+  },
+  "service": {
+    "heading": "What I do",
+    "items": [
+      {
+        "img": "code.jpg",
+        "text": "Code Fun Stuff!",
+        "url": "https://youtu.be/AS_Z6eQdnh4"
+      },
+      {
+        "img": "linux.png",
+        "text": "Do Cool Challenge!",
+        "url": "https://youtu.be/up6F-uPjq88"
+      },
+      {
+        "img": "draw.jpg",
+        "text": "Draw Anime Girls!",
+        "url": "https://youtu.be/PxpqD0eQLk0"
+      },
+      {
+        "img": "osu.jpg",
+        "text": "Stream on YouTube and Twitch!",
+        "url": "https://cyannyan.com/osu"
+      },
+      {
+        "img": "minecraft.jpg",
+        "text": "Host/Play Minecraft Server!",
+        "url": "https://youtu.be/YX_4mfu4CtA"
+      },
+      {
+        "img": "collab.png",
+        "text": "Make Friends with Hooman!",
+        "url": "https://youtu.be/B0Fg7KYlQsI"
+      }
+    ]
+  },
+  "offer": {
+    "heading": "YOU UP FOR HACKER NEKO?",
+    "button": {
+      "text": "GET HER!",
+      "url": "#about"
+    }
+  },
+  "about": {
+    "img": "avatar.jpg",
+    "content": "Hello nyan! I am Cyan 赛小盐 and I am your Hacker Neko Waifu. I am a EN/CN VTuber who wants to document my journey to be the cutest hacker alien on earth!I love to code, play Minecraft, draw anime, play guitar, and make friends with hooman!😊",
+    "button": {
+      "text": "Subscribe to my channels",
+      "url": "https://www.youtube.com/channel/UC9wbdkwvYVSgKtOZ3Oov98g"
+    }
+  },
+  "footer": {
+    "heading": "Join Our Journey!",
+    "social": {
+      "twitter": "https://cyannyan.com/twitter",
+      "youtube": "https://cyannyan.com/youtube",
+      "github": "https://github.com/CyanNyan",
+      "twitch": "https://cyannyan.com/twitch",
+      "discord": "https://cyannyan.com/discord",
+      "telegram": "https://cyannyan.com/telegram"
+    },
+    "credit": true
+  }
 }
