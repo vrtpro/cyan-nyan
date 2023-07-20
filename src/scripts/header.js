@@ -23,15 +23,15 @@ headerNav.addEventListener('animationend', () => {
     }
 });
 
-[...headerNav.getElementsByTagName('a')].forEach(a => {
+[...headerNav.getElementsByTagName('a')].forEach((a) => {
     a.addEventListener('click', () => {
         headerNav.classList.add('close');
     });
 });
 
 new IntersectionObserver(
-    entries => {
-        entries.forEach(entry => {
+    (entries) => {
+        entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 header.classList.remove('slim');
             } else {
@@ -39,12 +39,12 @@ new IntersectionObserver(
             }
         });
     },
-    { threshold: 1 }
+    { threshold: 1 },
 ).observe(main.firstElementChild);
 
 new IntersectionObserver(
-    entries => {
-        entries.forEach(entry => {
+    (entries) => {
+        entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 header.classList.remove('dark');
             } else {
@@ -52,5 +52,5 @@ new IntersectionObserver(
             }
         });
     },
-    { rootMargin: '-60px' }
+    { rootMargin: '-60px' },
 ).observe(main.firstElementChild);

@@ -1,11 +1,11 @@
 new IntersectionObserver(
     function (entries) {
-        entries.forEach(entry => {
+        entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 this.disconnect();
                 entry.target.classList.add('show');
             }
         });
     },
-    { threshold: 1 }
+    { threshold: 1 },
 ).observe(document.getElementById('social'));
