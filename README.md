@@ -1,6 +1,9 @@
 # CyanNyan's Personal Website Clone
 
 ![Banner](https://media.discordapp.net/attachments/946013429200723989/1131479674581684254/banner_2.png)
+![Netlify Status](https://api.netlify.com/api/v1/badges/ee675194-386b-4627-920b-8f3b8e8df02a/deploy-status)
+
+# 📖 Background
 
 <!-- what  -->
 
@@ -21,24 +24,26 @@ tons of uneccessary library that are not needed.
 Of course, recreate everything from scratch fix it(this is a bad idea
 but i still do it just for learning purpose).
 
-### Demo
+Try it now: https://cyan-nyan.bayudc.fun | [The original website](https://cyannyan.com)
 
-https://cyan-nyan.netlify.app  
-[See the original website](https://cyannyan.com)
+## 🧑‍💻 Development
 
-## Development
+Just like a regular frontend project.
 
-Just like reguler frontend project
+> **Note**
+> Requirement: [Node.js](https://nodejs.org) >= 16.x setup with [pnpm](https://pnpm.io) is recommended.
 
 ```
-$ npm install
-$ npm start
+$ pnpm install
+$ pnpm start
 ```
 
-## Todo List
+## 🗓️ Todo List
 
--   SEO ✅
+| Name | Status | Description                                         |
+| ---- | ------ | --------------------------------------------------- |
+| SEO  |        | Bring the Search Engine Optimization to the website |
 
-## Credits
+## ❤️ Credits
 
 -   [Cyan Nyan](https://github.com/CyanNyan)
