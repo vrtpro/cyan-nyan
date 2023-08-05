@@ -15,13 +15,13 @@ and script modification.
 
 <!-- why  -->
 
-CyanNyan has made a great website, i like her website(and love it).
+CyanNyan has made a great website, i like her website (and love it).
 But there is one problem. The website is just do simple thing but load
 tons of uneccessary library that are not needed.
 
 <!-- how -->
 
-Of course, recreate everything from scratch fix it(this is a bad idea
+Of course, recreate everything from scratch fix it (this is a bad idea
 but i still do it just for learning purpose).
 
 Try it now: https://cyan-nyan.bayudc.fun | [The original website](https://cyannyan.com)
